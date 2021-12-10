@@ -1,0 +1,6 @@
+draw = function() {background(255, 255, 255);noStroke();ellipse(mouseX,mouseY,64,64);
+    mouseMoved = function(){ellipse(mouseX,mouseY,64,64);
+    if (mouseButton === LEFT) {fill(0, 0, 0);ellipse(mouseX,mouseY,20,20);}
+    if (mouseButton === RIGHT) {fill(255, 255, 255);ellipse(mouseX,mouseY,20,20);}
+    };
+};
